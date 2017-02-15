@@ -1,0 +1,25 @@
+﻿  main.cpp
+c:\users\hegaxer\documents\visual studio 2015\projects\umcontainer\umcontainer\main.cpp(97): warning C4244: 'initializing': conversion from 'uint64_t' to 'int', possible loss of data
+c:\users\hegaxer\documents\visual studio 2015\projects\umcontainer\umcontainer\main.cpp(122): warning C4244: 'initializing': conversion from 'uint64_t' to 'int', possible loss of data
+c:\users\hegaxer\documents\visual studio 2015\projects\umcontainer\umcontainer\main.cpp(166): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\hegaxer\documents\visual studio 2015\projects\umcontainer\umcontainer\umcontainer.h(96): warning C4244: '=': conversion from 'uint64_t' to 'int', possible loss of data
+  c:\users\hegaxer\documents\visual studio 2015\projects\umcontainer\umcontainer\umcontainer.h(78): note: while compiling class template member function 'uint64_t umContainer<ex1>::addData(T *,std::string,int)'
+          with
+          [
+              T=ex1
+          ]
+  c:\users\hegaxer\documents\visual studio 2015\projects\umcontainer\umcontainer\main.cpp(97): note: see reference to function template instantiation 'uint64_t umContainer<ex1>::addData(T *,std::string,int)' being compiled
+          with
+          [
+              T=ex1
+          ]
+  c:\users\hegaxer\documents\visual studio 2015\projects\umcontainer\umcontainer\main.cpp(13): note: see reference to class template instantiation 'umContainer<ex1>' being compiled
+c:\users\hegaxer\documents\visual studio 2015\projects\umcontainer\umcontainer\umcontainer.h(131): warning C4244: 'initializing': conversion from 'uint64_t' to 'int', possible loss of data
+x:\vs2015\vc\include\utility(200): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  c:\users\hegaxer\documents\visual studio 2015\projects\umcontainer\umcontainer\main.cpp(28): note: see reference to function template instantiation 'std::pair<float,float>::pair<double,double,void,0>(std::pair<double,double> &&) noexcept' being compiled
+  c:\users\hegaxer\documents\visual studio 2015\projects\umcontainer\umcontainer\main.cpp(28): note: see reference to function template instantiation 'std::pair<float,float>::pair<double,double,void,0>(std::pair<double,double> &&) noexcept' being compiled
+x:\vs2015\vc\include\utility(200): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  c:\users\hegaxer\documents\visual studio 2015\projects\umcontainer\umcontainer\main.cpp(148): note: see reference to function template instantiation 'std::pair<float,float>::pair<int,int,void,0>(std::pair<int,int> &&) noexcept' being compiled
+  c:\users\hegaxer\documents\visual studio 2015\projects\umcontainer\umcontainer\main.cpp(148): note: see reference to function template instantiation 'std::pair<float,float>::pair<int,int,void,0>(std::pair<int,int> &&) noexcept' being compiled
+  umContainer.vcxproj -> C:\Users\Hegaxer\documents\visual studio 2015\Projects\umContainer\Debug\umContainer.exe
+  umContainer.vcxproj -> C:\Users\Hegaxer\documents\visual studio 2015\Projects\umContainer\Debug\umContainer.pdb (Partial PDB)
