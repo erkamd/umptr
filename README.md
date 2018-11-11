@@ -14,7 +14,7 @@ UmPointer is non-copyable class. You can use "copyFrom" function to get a copy o
 UmPointer has blank constructor.
 
 You can use constructor overload or "init" function to initialize umpointer. When you initialized with one of these options umpointer will
-bound to its actual data. This means when umpointer destroyed the actual data will be destroyed too. You can change bound situation with "Bound"
+bind to its actual data. This means when umpointer destroyed, the actual data will be destroyed too. You can change binding option with "Bound"
 and "UnBound" functions. You can still reach the actual data after "UnBound"ing.
 
 "getData" and "eraseData" functions have overloads that is taking line and file as arguments. If a problem occurs you can reach those information
